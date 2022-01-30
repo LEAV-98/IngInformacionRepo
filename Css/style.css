@@ -122,10 +122,10 @@
 /* all page style goes here */
 
 	.home-div{
-		background-image: url(../Images/imperial-banner.png);
+		background-image: url(../Images/fisi-fachada.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: fixed;
+		background-position: center;
 		width: 100%;
 		height: 450px; 
 	}

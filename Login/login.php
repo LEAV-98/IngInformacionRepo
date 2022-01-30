@@ -39,13 +39,13 @@ session_start();
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Login - ICBS</title>
+		<title>Login - ICBS</title> 
 	</head>
 	<body class="login-background">
 		<?php include('../common/common-header.php') ?>
         <div class="login-div mt-3 rounded">
             <div class="logo-div text-center">
-                <img src="../Images/icbs_logo.png" alt="" class="align-items-center" width="100" height="100">
+                <img src="../Images/logo-unmsm.png" alt="" class="align-items-center" width="100" height="100">
             </div>
             <div class="login-padding">
                 <h2 class="text-center text-white">LOGIN</h2>

@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Home-College Of Business Studies</title>
-	<link rel="shortcut icon" href="./Images/icbs_logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="./Images/logo-unmsm.png" type="image/x-icon">
+	
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -14,8 +15,8 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark header-back sticky-top header-navbar-fonts">
 	<a class="navbar-brand d-flex align-items-center" href="index.php">
-		<img src="images/icbs_logo.png" class="logo-image" width="50" height="50">
-		<h3 class="text-light text-uppercase ml-2">ABC College</h3>
+		<img src="images/logo-unmsm.png" class="logo-image" width="50" height="50">
+		<h3 class="text-light text-uppercase ml-2">UNMSM - FISI</h3>
 	</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
