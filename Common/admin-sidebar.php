@@ -38,12 +38,12 @@
             <i class="fa fa-file-text-o mr-2" aria-hidden="true"></i> Cursos
           </a>
         </li>
-        <!-- <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="../admin/time-table.php">
             <span data-feather="layers"></span>
             <i class="fa fa-clock-o mr-2" aria-hidden="true"></i> Time Table
           </a>
-        </li> -->
+        </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="../admin/class-result.php">
             <span data-feather="layers"></span>
@@ -74,12 +74,12 @@
             <i class="fa fa-credit-card-alt mr-2" aria-hidden="true"></i> Student Fee
           </a>
         </li> -->
-        <!-- <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="../admin/manage-accounts.php">
             <span data-feather="layers"></span>
             <i class="fa fa-key mr-2" aria-hidden="true"></i> Manage Account
           </a>
-        </li> -->
+        </li>
       </ul>
     </div>
   </nav>

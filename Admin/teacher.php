@@ -371,8 +371,8 @@ if (isset($_POST['btn_save2'])) {
 																				Hidden Values are end here
 											_________________________________________________________________________________ -->
 										<div class="modal-footer">
-											<input type="submit" class="btn btn-primary" name="btn_save" value="Save Data">
-											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											<input type="submit" class="btn btn-primary" name="btn_save" value="Guardar">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
 										</div>
 									</form>
 								</div>
