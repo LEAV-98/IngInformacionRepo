@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Academics</title>
+	<title>Escuelas</title>
 </head>
 <body>
 	<?php include('common/header.php') ?>
 	<div class="container-fluid">
 		<div class="row mb-5">
 			<div class="academic-area-headings">
-				<h4 class="py-4">Faculty of Engineering and Technology</h4>
+				<h4 class="py-4">Escuela Profesional de Ingeniería de Sistemas</h4>
 			</div>
 			<div class="container">
 				<div class="row">
@@ -33,7 +33,7 @@
 	<div class="container-fluid">
 		<div class="row mb-5">
 			<div class="academic-area-headings">
-				<h4 class="py-4">Faculty of Art, Social Sciences and Humanities</h4>
+				<h4 class="py-4">Escuela Profesional de Ingeniería de Software</h4>
 			</div>
 			<div class="container">
 				<div class="row">
@@ -55,6 +55,7 @@
 			</div>
 		</div>
 	</div>
+	<!--
 	<div class="container-fluid">
 		<div class="row mb-5">
 			<div class="academic-area-headings">
@@ -105,5 +106,6 @@
 			</div>
 		</div>
 	</div>
+	-->
 </body>
 </html>

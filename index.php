@@ -10,7 +10,9 @@
 		</div>
 		<div class="paragraph">
 			<p>
-				ICBS provides a harmonious environment and learning opportunities  to its students regardless of their gender, socioeconomic background, religious beliefs and regional differences.
+				Fundada en octubre del año 2000, la Facultad de Sistemas e Informática inicia sus actividades 
+				con la misión de ser una facultad referente de excelencia y calidad en la formación profesional e investigación en las ingenierías de Sistemas, de Software y de Ciencias de la Computación, 
+				 reconocida nacional e internacionalmente, que aporta al desarrollo sostenible y tecnológico del país.
 			</p>
 		</div>
 	<?php include('common/cards.php') ?>
