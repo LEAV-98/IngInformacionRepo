@@ -41,7 +41,7 @@
         <li class="nav-item">
           <a class="nav-link" href="../admin/time-table.php">
             <span data-feather="layers"></span>
-            <i class="fa fa-clock-o mr-2" aria-hidden="true"></i> Time Table
+            <i class="fa fa-clock-o mr-2" aria-hidden="true"></i> Horarios
           </a>
         </li>
         <!-- <li class="nav-item">
@@ -77,7 +77,13 @@
         <li class="nav-item">
           <a class="nav-link" href="../admin/manage-accounts.php">
             <span data-feather="layers"></span>
-            <i class="fa fa-key mr-2" aria-hidden="true"></i> Manage Account
+            <i class="fa fa-key mr-2" aria-hidden="true"></i> Administrar Cuenta
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../admin/statistics.php">
+            <span data-feather="layers"></span>
+            <i class="fa fa-pie-chart mr-2" aria-hidden="true"></i> Estadísticas
           </a>
         </li>
       </ul>
