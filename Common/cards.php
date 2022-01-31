@@ -35,7 +35,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12 col-10 m-auto">
 					<div class="card card-margin">
 						<div class="card-logo m-auto">
-							<img src="images/3.jpg" class="card-img img-fluid">
+							<img src="images/banner_sistemas.jpg" class="card-img img-fluid">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">Escuela Profesional de Ingeniería de Sistemas</h5>
@@ -45,7 +45,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-12 col-10 m-auto">
 					<div class="card card-margin">
 						<div class="card-logo m-auto">
-							<img src="images/4.jpg" class="card-img img-fluid">
+							<img src="images/banner_software.jpg" class="card-img img-fluid">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">Escuela Profesional de Ingeniería de Software</h5>
