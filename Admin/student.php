@@ -132,9 +132,10 @@
 <!--*********************** PHP code end from here for data insertion into database ******************************* -->
  
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<title>Admin - Register Student</title>
+		<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 	</head>
 	<body>
 		<?php include('../common/common-header.php') ?>

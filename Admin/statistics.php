@@ -1,4 +1,4 @@
-<<!---------------- Session starts form here ----------------------->
+<!---------------- Session starts form here ----------------------->
     <?php
     session_start();
     if (!$_SESSION["LoginAdmin"]) {
@@ -29,6 +29,7 @@
 
     <head>
         <title>FISI - Estadísticas</title>
+        <link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
     </head>
 
     <body>

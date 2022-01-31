@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 <!---------------- Session starts form here ----------------------->
-<?php  
-=======
-<<!---------------- Session starts form here ----------------------->
 	<?php
->>>>>>> master
 	session_start();
 	if (!$_SESSION["LoginAdmin"]) {
 		header('location:../login/login.php');
@@ -30,10 +25,11 @@
 	?>
 
 	<!doctype html>
-	<html lang="en">
+	<html lang="es">
 
 	<head>
 		<title>Fisi - Cuentas</title>
+		<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 	</head>
 
 	<body>

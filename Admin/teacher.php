@@ -138,10 +138,11 @@ if (isset($_POST['btn_save2'])) {
 
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<title>FISI - Profesores</title>
+	<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 </head>
 
 <body>

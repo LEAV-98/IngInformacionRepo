@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="./Images/logo-unmsm.png" type="image/x-icon">
@@ -27,13 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="../index.php">HOME<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../index.php">INICIO<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="../academics.php">ACADEMICS<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../academics.php">ESCUELAS<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="../admission.php">ADMISSION<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../admission.php">ADMISIÓN<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="../login/logout.php"><i class="fa fa-sign-out text-white fa-lg" aria-hidden="true"></i><span class="sr-only">(current)</span></a>
