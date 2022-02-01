@@ -19,9 +19,11 @@ if (isset($_POST['sub'])) {
 	$query = "insert into course_subjects(subject_code,subject_name,course_code,semester,credit_hours)values('$subject_code','$subject_name','$course_code','$semester','$credit_hours')";
 	$run = mysqli_query($con, $query);
 	if ($run) {
-		echo "successfully";
+		//echo "successfully";
+		echo "<script>alert('Curso agregado exitosamente');</script>";
 	} else {
-		echo "not";
+		//echo "not";
+		echo "<script>alert('No se pudo agregar');</script>";
 	}
 }
 ?>
