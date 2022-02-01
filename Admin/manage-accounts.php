@@ -29,6 +29,7 @@ if (isset($_POST['submit'])) {
 
 <head>
 	<title>Fisi - Cuentas</title>
+	<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 </head>
 
 <body>
