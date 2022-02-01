@@ -58,9 +58,9 @@ while ($row = mysqli_fetch_array($run)) {
         const data = {
             labels: labels,
             datasets: [{
-                label: 'Estudiantes por carrera',
-                backgroundColor: 'rgb(255, 99, 132)',
-                borderColor: 'rgb(255, 99, 132)',
+                label: ["FISI"],
+                backgroundColor: ['rgb(94 2 9))', "rgb(94 2 9)"],
+                borderColor: ['rgb(44 62 80)', "rgb(44 62 80)"],
 
                 data: [<?php
                         echo $arrayDatos[0];
@@ -72,9 +72,20 @@ while ($row = mysqli_fetch_array($run)) {
         };
 
         const config = {
-            type: 'line',
+            type: 'bar',
             data: data,
-            options: {}
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Estudiantes por Carrera'
+                    }
+                }
+            },
         };
     </script>
     <!-- Inserción -->
