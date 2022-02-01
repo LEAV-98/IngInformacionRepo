@@ -30,6 +30,7 @@ if (isset($_POST['sub'])) {
 <html lang="en">
 	<head>
 		<title>Class - Result</title>
+		<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 	</head>
 	<body>
 		<?php include('../common/common-header.php') ?>

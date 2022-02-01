@@ -52,11 +52,11 @@ session_start();
                 <h2 class="text-center text-white">LOGIN</h2>
                 <form class="p-1" action="login.php" method="POST">
                     <div class="form-group">
-                        <label><h6>Enter Your ID/Email:</h6></label>
+                        <label><h6>Ingrese su ID/Correo:</h6></label>
                         <input type="text" name="email" placeholder="Enter User ID" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label><h6>Enter Password:</h6></label>
+                        <label><h6>Ingrese contraseña:</h6></label>
                         <input type="Password" name="password" placeholder="Enter Password" class="form-control border-bottom" required>
                         <!-- <?php echo $message; ?> -->
                     </div>

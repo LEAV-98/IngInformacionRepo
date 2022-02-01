@@ -20,10 +20,11 @@ require_once "../connection/connection.php";
 
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<title>Admin - Teacher Information</title>
+	<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 </head>
 
 <body>
