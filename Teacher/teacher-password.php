@@ -30,9 +30,10 @@
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<title>Teacher - Password</title>
+		<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 	</head>
 	<body>
 		<?php include('../common/common-header.php') ?>
@@ -41,7 +42,7 @@
 		<main role="main" class="col-xl-10 col-lg-9 col-md-8 ml-sm-auto px-md-4 main-background mb-2 w-100">
 			<div class="sub-main">
 				<div class="text-center d-flex flex-wrap flex-md-nowrap pt-3 pb-2 mb-3 text-white admin-dashboard pl-3">
-					<h4 class="">Update Your Password</h4>
+					<h4 class="">Actualice su contraseña</h4>
 				</div>
 				<div class="container pt-5">
 					<div class="row">
@@ -50,13 +51,13 @@
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<label>Enter New Password</label>
+											<label>Ingrese nueva contraseña</label>
 											<input type="text" name="password" class="form-control" placeholder="Enter New Password">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group pt-4 pl-5">
-											<input type="submit" name="submit" value="Change Password" class="btn btn-primary">
+											<input type="submit" name="submit" value="Cambiar contraseña" class="btn btn-primary">
 										</div>
 									</div>
 								</div>
