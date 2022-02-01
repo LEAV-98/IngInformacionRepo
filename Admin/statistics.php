@@ -26,6 +26,8 @@ while ($row = mysqli_fetch_array($run)) {
 
 <head>
     <title>FISI - Estadísticas</title>
+    <link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
+
 </head>
 
 <body>
