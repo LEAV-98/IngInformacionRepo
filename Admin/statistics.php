@@ -39,8 +39,9 @@ while ($row = mysqli_fetch_array($run)) {
             <div class="bar-margin text-center d-flex flex-wrap flex-md-nowrap pt-3 pb-2 mb-3 text-white admin-dashboard pl-3">
                 <h4>Estadísticas </h4>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 mx-auto">
                 <canvas id="myChart"></canvas>
+
             </div>
 
         </div>
@@ -57,7 +58,7 @@ while ($row = mysqli_fetch_array($run)) {
         const data = {
             labels: labels,
             datasets: [{
-                label: 'My First dataset',
+                label: 'Estudiantes por carrera',
                 backgroundColor: 'rgb(255, 99, 132)',
                 borderColor: 'rgb(255, 99, 132)',
 
