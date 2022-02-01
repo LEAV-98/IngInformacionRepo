@@ -21,9 +21,10 @@
 ?>
 
 
-<html lang="en">
+<html lang="es">
 	<head>
-		<title>Teacher - Dashboard</title>
+		<title>Profesor - Dashboard</title>
+		<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 	</head>
 	<body>
 		<?php include('../common/common-header.php') ?>
@@ -32,7 +33,7 @@
 		<main role="main" class="col-xl-10 col-lg-9 col-md-8 ml-sm-auto px-md-4 main-background mb-2 w-100">
 			<div class="sub-main">
 				<div class="text-center d-flex flex-wrap flex-md-nowrap pt-3 pb-2 mb-3 text-white admin-dashboard pl-3">
-					<h4 class="">Welcome To <?php $roll_no=$_SESSION['LoginTeacher'];
+					<h4 class="">Bienvenido a <?php $roll_no=$_SESSION['LoginTeacher'];
 					$query="select * from teacher_info where email='$teacher_email'";
 					$run=mysqli_query($con,$query);
 					while ($row=mysqli_fetch_array($run)) {
@@ -86,7 +87,7 @@
 						<div>
 							<section class="mt-3">
 								<div class="btn btn-block table-one text-light d-flex">
-									<span class="font-weight-bold"><i class="fa fa-bell-o mr-3" aria-hidden="true"></i> Notifications</span>
+									<span class="font-weight-bold"><i class="fa fa-bell-o mr-3" aria-hidden="true"></i> Notificaciones</span>
 									<a href="" class="ml-auto" data-toggle="collapse" data-target="#collapsethree"><i class="fa fa-plus text-light" aria-hidden="true"></i></a>
 								</div>
 								<div class="collapse show mt-2" id="collapsethree">
@@ -116,7 +117,7 @@
 					<div class="col-md-12 mt-4">
 						<table class="w-100 table-striped table-hover table-dark"cellpadding="2" >
 							<tr>
-								<td colspan="12" class="text-center text-white"><h5>Attendance Report</h5></td>
+								<td colspan="12" class="text-center text-white"><h5>Reporte de asistencia</h5></td>
 							</tr>
 							<tr>
 								<th>Month</th>

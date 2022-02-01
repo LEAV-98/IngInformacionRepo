@@ -11,9 +11,10 @@
 
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<title>Teacher - Courses</title>
+		<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 	</head>
 	<body>
 		<?php include('../common/common-header.php') ?>

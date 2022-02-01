@@ -15,13 +15,13 @@
 					<li class="nav-item">
 						<a class="nav-link" href="../admin/display-teacher.php">
 						<span data-feather="file"></span>
-						<i class="fa fa-user mr-2" aria-hidden="true"></i> Personal Profile
+						<i class="fa fa-user mr-2" aria-hidden="true"></i> Perfil personal
 						</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="../teacher/teacher-personal-information.php">
 						<span data-feather="file"></span>
-						<i class="fa fa-info-circle mr-2" aria-hidden="true"></i> Personal Information
+						<i class="fa fa-info-circle mr-2" aria-hidden="true"></i> Información personal
 						</a>
 						</li>
 					<li class="nav-item">
@@ -45,7 +45,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="../teacher/teacher-password.php">
 						<span data-feather="bar-chart-2"></span>
-						<i class="fa fa-key mr-2" aria-hidden="true"></i> Change Password
+						<i class="fa fa-key mr-2" aria-hidden="true"></i> Cambiar contraseña
 						</a>
 					</li>
 				</ul>
