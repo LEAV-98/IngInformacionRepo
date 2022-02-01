@@ -18,7 +18,6 @@ if (isset($_POST['sub'])) {
 
 	// $query = "insert into courses(course_code,course_name,no_of_year)values('$course_code','$course_name','$semester_or_year','$no_of_year')";
 	$query = "insert into courses(course_code,course_name,no_of_year)values('$course_code','$course_name','$no_of_year')";
-	echo "<script>alert('Erroooooor');</script>";
 	$run = mysqli_query($con, $query);
 	if ($run) {
 		echo "<script>alert('Insertado exitosamente');</script>";
