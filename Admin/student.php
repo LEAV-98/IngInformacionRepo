@@ -85,8 +85,12 @@
 
 // *****************************************Images upload code end here********************************************************** 
 
- 		$query="Insert into student_info(roll_no,first_name,middle_name,last_name,father_name,email,mobile_no,course_code,session,profile_image,prospectus_issued,prospectus_amount,form_b,applicant_status,application_status,cnic,dob,gender,permanent_address,current_address,place_of_birth,matric_complition_date,matric_awarded_date,matric_certificate,fa_complition_date,fa_awarded_date,fa_certificate,ba_complition_date,ba_awarded_date,ba_certificate)values('$roll_no','$first_name','$middle_name','$last_name','$father_name','$email','$mobile_no','$course_code','$session','$profile_image','$prospectus_issued','$prospectus_amount','$form_b','$applicant_status','$application_status','$cnic','$dob','$gender','$permanent_address','$current_address','$place_of_birth','$matric_complition_date','$matric_awarded_date','$matric_certificate','$fa_complition_date','$fa_awarded_date','$fa_certificate','$ba_complition_date','$ba_awarded_date','$ba_certificate')";
- 		$run=mysqli_query($con, $query);
+ 		//$query="Insert into student_info(roll_no,first_name,middle_name,last_name,father_name,email,mobile_no,course_code,session,profile_image,prospectus_issued,prospectus_amount,form_b,applicant_status,application_status,cnic,dob,gender,permanent_address,current_address,place_of_birth,matric_complition_date,matric_awarded_date,matric_certificate,fa_complition_date,fa_awarded_date,fa_certificate,ba_complition_date,ba_awarded_date,ba_certificate)values('$roll_no','$first_name','$middle_name','$last_name','$father_name','$email','$mobile_no','$course_code','$session','$profile_image','$prospectus_issued','$prospectus_amount','$form_b','$applicant_status','$application_status','$cnic','$dob','$gender','$permanent_address','$current_address','$place_of_birth','$matric_complition_date','$matric_awarded_date','$matric_certificate','$fa_complition_date','$fa_awarded_date','$fa_certificate','$ba_complition_date','$ba_awarded_date','$ba_certificate')";
+		
+		$query="Insert into student_info(roll_no,first_name,middle_name,last_name,father_name,email)values('$roll_no','$first_name','$middle_name','$last_name','$father_name','$email')";
+
+		
+		 $run=mysqli_query($con, $query);
  		if ($run) {
  			echo "Your Data has been submitted";
  		}
@@ -154,26 +158,26 @@
 					   <div class="modal-dialog modal-lg">
 						    <div class="modal-content">
 							    <div class="modal-header bg-info text-white">
-							        <h4 class="modal-title text-center">Add New Student</h4>
+							        <h4 class="modal-title text-center">Añadir nuevo estudiante</h4>
 						        </div>
 							    <div class="modal-body">
 							        <form action="student.php" method="POST" enctype="multipart/form-data">
 										<div class="row mt-3">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Applicant First Name:*</label>
+											        <label for="exampleInputEmail1">Primer nombre:*</label>
 											        <input type="text" name="first_name" class="form-control" required>
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Applicant Middle Name:</label>
+												    <label for="exampleInputPassword1">Segundo nombre:</label>
 												    <input type="text" name="middle_name" class="form-control">
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1" required>Applicant Last Name:*</label>
+												    <label for="exampleInputPassword1" required>Apellido:*</label>
 												    <input type="text" name="last_name" class="form-control">
 											    </div>
 											</div>
@@ -181,19 +185,19 @@
 								  		<div class="row">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Father Name:*</label>
+											        <label for="exampleInputEmail1">Nombre del Padre:*</label>
 											        <input type="text" name="father_name" class="form-control" required>
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Student Roll No:</label>
+												    <label for="exampleInputPassword1">Número de lista de estudiantes:</label>
 												    <input type="text" name="roll_no" class="form-control">
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Applicant Email:*</label>
+												    <label for="exampleInputPassword1">Correo electrónico del solicitante:*</label>
 												    <input type="email" name="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
 											    </div>
 											</div>
@@ -201,9 +205,9 @@
 								  		<div class="row">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Course which you want?: </label>
+											        <label for="exampleInputEmail1">¿Curso que quieres?: </label>
 											        <select class="browser-default custom-select" name="course_code">
-													    <option >Select Course</option>
+													    <option >Seleccionar Curso</option>
 													    <?php
 															$query="select course_code from courses";
 															$run=mysqli_query($con,$query);
@@ -216,9 +220,9 @@
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Select Session:</label>
+												    <label for="exampleInputPassword1">Seleccionar sesión:</label>
 												    <select class="browser-default custom-select" name="session">
-													    <option >Select Session</option>
+													    <option >Seleccionar sesión</option>
 													    <?php
 															$query="select session from sessions";
 															$run=mysqli_query($con,$query);
@@ -232,7 +236,7 @@
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Your Profile Image:</label>
+												    <label for="exampleInputPassword1">Su imagen de perfil:</label>
 												    <input type="file" name="profile_image" placeholder="Student Age" class="form-control">
 											    </div>
 											</div>
@@ -240,27 +244,27 @@
 								  		<div class="row">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Prospectus Issude: </label>
+											        <label for="exampleInputEmail1">Emisión de prospecto: </label>
 											        <select class="browser-default custom-select" name="prospectus_issued">
-													  <option>Select Option</option>
-													  <option value="Yes">Yes</option>
+													  <option>Seleccionar opción</option>
+													  <option value="Yes">Sí</option>
 													  <option value="No">No</option>
 													</select>
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Prospectus Amount Recvd:</label>
+												    <label for="exampleInputPassword1">Prospecto Importe recibido:</label>
 												    <select class="browser-default custom-select" name="prospectus_amount">
-													  <option>Select Option</option>
-													  <option value="Yes">Yes</option>
+													  <option>Seleccionar opción</option>
+													  <option value="Yes">Sí</option>
 													  <option value="No">No</option>
 													</select>
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Form B:</label>
+												    <label for="exampleInputPassword1">Formulario B:</label>
 												    <input type="text" name="form_b" class="form-control">
 											    </div>
 											</div>
@@ -268,21 +272,21 @@
 								  		<div class="row">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Applicant Status: </label>
+											        <label for="exampleInputEmail1">Estado del solicitante: </label>
 											        <select class="browser-default custom-select" name="applicant_status">
-													  <option>Select Option</option>
-													  <option value="Admitted">Admitted</option>
-													  <option value="Not Admitted">Not Admitted</option>
+													  <option>Seleccionar opción</option>
+													  <option value="Admitted">Aprovado</option>
+													  <option value="Not Admitted">No Aprovado</option>
 													</select>
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Application Status:</label>
+												    <label for="exampleInputPassword1">Estado de la aplicación:</label>
 												    <select class="browser-default custom-select" name="application_status">
 													  <option>Select Option</option>
-													  <option value="Approved">Approved</option>
-													  <option value="Not Approved">Not Approved</option>
+													  <option value="Approved">Aprovado</option>
+													  <option value="Not Approved">No Aprovados</option>
 													</select>
 											    </div>
 											</div>
@@ -296,23 +300,23 @@
 								  		<div class="row">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Date of Birth: </label>
+											        <label for="exampleInputEmail1">Fecha de nacimiento: </label>
 											        <input type="date" name="dob" class="form-control">
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Mobile No:*</label>
+												    <label for="exampleInputPassword1">No móviles:*</label>
 												    <input type="number" name="mobile_no" class="form-control" required>
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Gender:</label>
+												    <label for="exampleInputPassword1">Género:</label>
 												    <select class="browser-default custom-select" name="gender">
-													  <option>Select Gender</option>
-													  <option value="Male">Male</option>
-													  <option value="Female">Female</option>
+													  <option>Seleccione género</option>
+													  <option value="Male">Masculino</option>
+													  <option value="Female">Femenino</option>
 													</select>
 											    </div>
 											</div>
@@ -320,19 +324,19 @@
 								  		<div class="row">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Permanent Address: </label>
+											        <label for="exampleInputEmail1">Dirección permanente: </label>
 											        <input type="text" name="permanent_address" class="form-control">
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Current Address:</label>
+												    <label for="exampleInputPassword1">Direccion actual:</label>
 												    <input type="text" name="current_address" class="form-control">
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Place of Birth:</label>
+												    <label for="exampleInputPassword1">Lugar de nacimiento:</label>
 												    <input type="text" name="place_of_birth" class="form-control">
 											    </div>
 											</div>
@@ -340,19 +344,19 @@
 								  		<div class="row">
 											<div class="col-md-4">
 											    <div class="form-group">
-											        <label for="exampleInputEmail1">Matric/OLevel Complition Date: </label>
+											        <label for="exampleInputEmail1">Matrícula/OLevel Fecha de finalización: </label>
 											        <input type="date" name="matric_complition_date" class="form-control">
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Matric/OLevel Awarded Date:</label>
+												    <label for="exampleInputPassword1">Matric/OLevel Fecha de concesión:</label>
 												    <input type="date" name="matric_awarded_date" class="form-control">
 											    </div>
 											</div>
 											<div class="col-md-4">
 												<div class="form-group">
-												    <label for="exampleInputPassword1">Upload Matric/OLevel Certificate:</label>
+												    <label for="exampleInputPassword1">Subir Matrícula/Certificado OLevel:</label>
 												    <input type="file" name="matric_certificate" class="form-control" value="there is no image">
 											    </div>
 											</div>
@@ -409,7 +413,7 @@
 								  		_________________________________________________________________________________ -->
 								  		<div class="modal-footer">
 						   		            <input type="submit" class="btn btn-primary" name="btn_save">
-		      								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
 									    </div>
 									</form>
 						        </div>
