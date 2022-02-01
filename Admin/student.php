@@ -28,7 +28,7 @@ if (isset($_POST['btn_save'])) {
 
 	$mobile_no = $_POST["mobile_no"];
 
-	//$course_code=$_POST['course_code'];
+	$course_code=$_POST['course_code'];
 
 	//$session=$_POST['session'];
 
@@ -89,9 +89,9 @@ if (isset($_POST['btn_save'])) {
 
 	//$query="Insert into student_info(roll_no,first_name,middle_name,last_name,father_name,email,mobile_no,course_code,session,profile_image,prospectus_issued,prospectus_amount,form_b,applicant_status,application_status,cnic,dob,gender,permanent_address,current_address,place_of_birth,matric_complition_date,matric_awarded_date,matric_certificate,fa_complition_date,fa_awarded_date,fa_certificate,ba_complition_date,ba_awarded_date,ba_certificate)values('$roll_no','$first_name','$middle_name','$last_name','$father_name','$email','$mobile_no','$course_code','$session','$profile_image','$prospectus_issued','$prospectus_amount','$form_b','$applicant_status','$application_status','$cnic','$dob','$gender','$permanent_address','$current_address','$place_of_birth','$matric_complition_date','$matric_awarded_date','$matric_certificate','$fa_complition_date','$fa_awarded_date','$fa_certificate','$ba_complition_date','$ba_awarded_date','$ba_certificate')";
 	$query = "Insert into student_info
-		 (roll_no,first_name,middle_name,last_name,email,mobile_no,profile_image,dob,gender,current_address,place_of_birth)
+		 (roll_no,first_name,middle_name,last_name,email,course_code,mobile_no,profile_image,dob,gender,current_address,place_of_birth)
 		 values
-		 ('$roll_no','$first_name','$middle_name','$last_name','$email','$mobile_no','$profile_image','$dob','$gender','$current_address','$place_of_birth')";
+		 ('$roll_no','$first_name','$middle_name','$last_name','$email','$course_code','$mobile_no','$profile_image','$dob','$gender','$current_address','$place_of_birth')";
 	//echo "$query";
 	$run = mysqli_query($con, $query);
 	if ($run) {
@@ -135,7 +135,8 @@ if (isset($_POST['btn_save'])) {
 
 	$date = date("d-m-y");
 
-	$query3 = "insert into student_courses(course_code,semester,roll_no,subject_code,assign_date)values('$course_code','$semester','$roll_no','$subject_code','$date')";
+	//$query3 = "insert into student_courses(course_code,semester,roll_no,subject_code,assign_date)values('$course_code','$semester','$roll_no','$subject_code','$date')";
+	$query3 = "insert into student_courses(semester,roll_no,subject_code,assign_date)values('$semester','$roll_no','$subject_code','$date')";
 	$run3 = mysqli_query($con, $query3);
 	if ($run3) {
 		echo "Your Data has been submitted";
