@@ -112,7 +112,7 @@
 
 <?php  
 	if (isset($_POST['btn_save2'])) {
-		$course_code=$_POST['course_code'];
+		//$course_code=$_POST['course_code'];
 
 		$semester=$_POST['semester'];
 
@@ -122,7 +122,9 @@
 
 		$date=date("d-m-y");
 
-		$query3="insert into student_courses(course_code,semester,roll_no,subject_code,assign_date)values('$course_code','$semester','$roll_no','$subject_code','$date')";
+		//$query3="insert into student_courses(course_code,semester,roll_no,subject_code,assign_date)values('$course_code','$semester','$roll_no','$subject_code','$date')";
+		$query3="insert into student_courses(semester,roll_no,subject_code,assign_date)values('$semester','$roll_no','$subject_code','$date')";
+
 		$run3=mysqli_query($con,$query3);
 		if ($run3) {
  			echo "Your Data has been submitted";
