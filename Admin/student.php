@@ -90,18 +90,18 @@
 		 (roll_no,first_name,middle_name,last_name,email,mobile_no,profile_image,dob,gender,current_address,place_of_birth)
 		 values
 		 ('$roll_no','$first_name','$middle_name','$last_name','$email','$mobile_no','$profile_image','$dob','$gender','$current_address','$place_of_birth')";
-		 echo "$query";
+		 //echo "$query";
 		 $run=mysqli_query($con, $query);
  		if ($run) {
- 			echo "Your Data has been submitted";
+			echo "<script>alert('Your Data has been submitted');</script>";
  		}
  		else {
- 			echo "Your Data has not been submitted";
+			echo "<script>alert('Your Data has not been submitted');</script>";
  		}
  		$query2="insert into login(user_id,Password,Role)values('$roll_no','$password','$role')";
  		$run2=mysqli_query($con, $query2);
  		if ($run2) {
- 			echo "Your Data has been submitted into login";
+ 			//echo "Your Data has been submitted into login";
  		}
  		else {
  			echo "Your Data has not been submitted into login";
