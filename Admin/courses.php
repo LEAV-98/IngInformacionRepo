@@ -31,10 +31,11 @@ if (isset($_POST['sub'])) {
 
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<title>FISI - Carreras / Especializaciones</title>
+	<link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 </head>
 
 <body>

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Registration form</title>
+	<link rel="shortcut icon" href="./Images/logo-unmsm.png" type="image/x-icon">
 </head>
 <body>
 	<?php include('common/header.php') ?>

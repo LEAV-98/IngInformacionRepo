@@ -32,11 +32,13 @@
             </ul>
           </div>  
           <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
-            <h2>CONTACT DETAILS</h2>
-              <p>Address: Imperial College of Business Studies,
-                  Bahria Town, Shahkam Chowk, Canal Bank Road,53720 Lahore – Pakistan</p>
-              <p>Telephones: (+92 42) 35978525-32</p>
-              <p>E-mail: admissions@imperial.edu.pk</p>
+            <h2>Detalles de contacto</h2>
+              <p>Dirección: Av. Carlos Germán Amezaga #375 -
+              Cercado de Lima</p>
+              <p>(01) 619-7000 | Anexo: 3608 - Sistemas</p>
+              <p>(01) 619-7000 | Anexo: 3623 - EAPIS</p>
+              <p>Correo sistemas: eapis.fisi@unmsm.edu.pe</p> 
+              <p>Correo software: episoftware.fisi@unmsm.edu.pe</p>
         </div>
       </div>
     </div>

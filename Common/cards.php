@@ -7,16 +7,17 @@
 	margin-right:auto;
 	margin-left:auto;
 ">
-			<h1>FACULTIES</h1>
-			<p>ICBS serves the national and international community through a broad spectrum of undergraduate studies..</p>
+			<h1>ESCUELAS</h1>
+			<p>Nuestra facultad sirve a la comunidad nacional e internacional a través de un amplio espectro de estudios de pregrado.</p>
 			<div class="row pt-3 pb-3">
+				<!--
 				<div class="col-lg-3 col-md-3 col-sm-12 col-10 m-auto">
 					<div class="card card-margin">
 						<div class="card-logo m-auto">
 							<img src="images/1.jpg" class="card-img img-fluid">
 						</div>
 						<div class="card-body">
-							<h5 class="card-title">Faculty of Engineering and Technology</h5>
+							<h5 class="card-title">Escuela Profesional de Ingeniería de Sistemas</h5>
 						</div>
 					</div>
 				</div>
@@ -26,27 +27,28 @@
 							<img src="images/2.jpg" class="card-img img-fluid">
 						</div>
 						<div class="card-body">
-							<h5 class="card-title">Faculty of Architecture, Art and Design</h5>
+							<h5 class="card-title">Escuela Profesional de Ingeniería de Software</h5>
+						</div>
+					</div>
+				</div>
+				-->
+				<div class="col-lg-3 col-md-3 col-sm-12 col-10 m-auto">
+					<div class="card card-margin">
+						<div class="card-logo m-auto">
+							<img src="images/banner_sistemas.jpg" class="card-img img-fluid">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Escuela Profesional de Ingeniería de Sistemas</h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-12 col-10 m-auto">
 					<div class="card card-margin">
 						<div class="card-logo m-auto">
-							<img src="images/3.jpg" class="card-img img-fluid">
+							<img src="images/banner_software.jpg" class="card-img img-fluid">
 						</div>
 						<div class="card-body">
-							<h5 class="card-title">Faculty of Information Technology, Computer Science</h5>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-10 m-auto">
-					<div class="card card-margin">
-						<div class="card-logo m-auto">
-							<img src="images/4.jpg" class="card-img img-fluid">
-						</div>
-						<div class="card-body">
-							<h5 class="card-title">Faculty of Business Administration</h5>
+							<h5 class="card-title">Escuela Profesional de Ingeniería de Software</h5>
 						</div>
 					</div>
 				</div>

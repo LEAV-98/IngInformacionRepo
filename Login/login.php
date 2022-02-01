@@ -37,9 +37,10 @@ session_start();
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
-		<title>Login - ICBS</title> 
+		<title>Login - FISI</title> 
+        <link rel="shortcut icon" href="../Images/logo-unmsm.png" type="image/x-icon">
 	</head>
 	<body class="login-background">
 		<?php include('../common/common-header.php') ?>
